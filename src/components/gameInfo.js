@@ -1,6 +1,6 @@
 import { html, render } from '../../node_modules/lit-html/lit-html.js';
 import * as gameService from '../services/gameService.js';
-
+import page from '../../node_modules/page/page.mjs';
 const gameTemplate = (game, onLike) => html`
     <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
@@ -25,12 +25,15 @@ const gameTemplate = (game, onLike) => html`
 export const gameView = (context) => {
   const onLike = (game) => {
     gameService.like(game.gameId)
-      .then(() => {
-        return gameService.getOne(game.gameId);
-        // window.location.href = `/games/${game.gameId}`;
-      });
-  };
-
+        .then(res => {
+            page.redirect(`/games/${game.gameId}`);
+        })
+        .catch(error => {
+            console.error('Error liking the game:', error);
+        });
+};
+    
+  
   const gameId = context.params.gameId;
 
   gameService.getOne(gameId)

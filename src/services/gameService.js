@@ -27,7 +27,7 @@ export const like = (gameId) => {
             }
             const game = data[0];
             return fetch(`${baseUrl}/${game.id}`, {
-                method: 'PATCH',
+                method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
                 },
