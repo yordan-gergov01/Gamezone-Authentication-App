@@ -1,0 +1,268 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/4626583.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    padding: 0 15px;
+}
+
+.loginContainer,
+.registerContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #2e2e2e;
+    border-radius: 8px;
+    background-color: rgba(31, 31, 31, 0.8); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative; 
+    margin-top: 100px;
+}
+
+.loginContainer h1,
+.registerContainer h1 {
+    color: #46b846; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input,
+form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+form button {
+    background-color: #46b846;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+form button:hover {
+    background-color: #3a9d3a;
+}
+
+.game-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.game-card img {
+    border-bottom: 1px solid #333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.card-title {
+    color: #46b846;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.custom-navbar {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #2e2e2e;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-navbar .navbar-brand {
+    color: #46b846;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.custom-navbar .nav-link {
+    color: #e0e0e0;
+    padding: 10px 15px; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #fff;
+    background-color: #46b846;
+}
+
+.custom-navbar .nav-link.active {
+    color: #fff;
+    background-color: #46b846;
+}
+
+.pagination {
+    justify-content: center;
+    margin: 20px 0;
+    padding-bottom: 80px;
+}
+
+.page-item .page-link {
+    background-color: #1f1f1f;
+    color: #46b846;
+    border: 1px solid #46b846;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.page-item.active .page-link {
+    background-color: #46b846;
+    color: #fff;
+    border-color: #46b846;
+}
+
+.page-item.disabled .page-link {
+    background-color: #333;
+    color: #666;
+    border-color: #333;
+}
+
+.page-link:hover {
+    background-color: #2e2e2e;
+    color: #46b846;
+}
+
+.footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #2e2e2e;
+}
+
+.footer .copyrights {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #46b846;
+    border: 1px solid #46b846;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3a9d3a;
+    border-color: #3a9d3a;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.game-card {
+    flex: 1 1 calc(50% - 20px);
+    max-width: 300px;
+}
+
+.btn-outline-success {
+    border-color: #46b846;
+    color: #46b846;
+}
+
+.btn-outline-success:hover {
+    background-color: #46b846;
+    color: #fff;
+}
+
+.card-text {
+    color:#1f1f1f;
+}
+
+
+
+.btn .btn-primary {
+    background-color: #46b846;
+    border: 1px solid #46b846;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-navbar .navbar-text{
+    color: whitesmoke;
+    margin-right: 15px;
+}
+
+h1{
+    text-align: center; 
+    color: #46b846; 
+    font-size: 2rem;
+    font-weight: bold; 
+    margin: 30px 0; 
+    padding: 10px;
+    border-bottom: 2px solid #46b846; 
+    background-color: #1f1f1f;
+}
+
+.registerContainer {
+    justify-content: center; 
+    align-items: center;     
+    height: 400px;           
+    background-color: #121212;
+    margin-top: 100px;
+}
+
+.loginContainer {
+    justify-content: center; 
+    align-items: center;     
+    height: 320px;           
+    background-color: #121212;
+    margin-top: 100px;
+}
+
+
