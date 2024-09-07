@@ -37,10 +37,13 @@
    git clone https://github.com/yordan-gergov01/GAMEZONE.git
 
 2. Install dependencies
-   **npm install**
 
-3. Start the local server
+    **npm install**
+
+4. Start the local server
+
    **npm start**
 
-4. Open the app in your browser at:
-  **http://localhost:3000**
+6. Open the app in your browser at:
+
+   **http://localhost:3000**
