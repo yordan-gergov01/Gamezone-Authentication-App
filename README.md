@@ -17,6 +17,8 @@
 ![Catalog photo 3](https://github.com/user-attachments/assets/acac0182-213b-41e4-9331-76ab07e4de8c)
 ![Catalog photo 4](https://github.com/user-attachments/assets/5e5f4972-8322-4ac6-9150-0388454a15c8)
 ![Catalog photo 5](https://github.com/user-attachments/assets/31cc7959-1bdf-4cb5-af9c-7ba5b62c1b27)
+![Catalog photo 6](https://github.com/user-attachments/assets/9bddc507-051d-41ef-9f24-5f216bf3d173)
+
 
 
 ## Technologies
