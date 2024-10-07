@@ -37,20 +37,20 @@
 
 In this project, I follow key software development principles, including:
 
-- **YAGNI (You Aren't Gonna Need It) – Avoid adding functionality that is not needed at the current stage of development, keeping the code lightweight and efficient.
-- **KISS (Keep It Simple, Stupid) – Strive to keep solutions as simple and understandable as possible.
-- **DRY (Don't Repeat Yourself) – Avoid code duplication by reusing logic and components wherever possible.
+- **YAGNI** (You Aren't Gonna Need It) – Avoid adding functionality that is not needed at the current stage of development, keeping the code lightweight and efficient.
+- **KISS** (Keep It Simple, Stupid) – Strive to keep solutions as simple and understandable as possible.
+- **DRY** (Don't Repeat Yourself) – Avoid code duplication by reusing logic and components wherever possible.
 
 
 ## REST API Standards
 
 This project adheres to REST API standards, utilizing the following HTTP methods for resource management:
 
-- **GET
-- **POST
-- **PUT
-- **PATCH
-- **DELETE
+- **GET**
+- **POST**
+- **PUT**
+- **PATCH**
+- **DELETE**
 
 ## How to Run the Project
 
